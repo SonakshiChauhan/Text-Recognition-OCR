@@ -35,17 +35,7 @@
  ##### o	Has high accuracy and multi-language support
  ##### o Works better on structured data.
  
-# Deliverables: # Comaprison between Easy OCR and Keras OCR
-
-# Installation and Usage
-Ensure that the following packages have been installed and imported.
-```bash
-pip install numpy
-pip install pandas
-pip install seaborn
-```
-Jupyter Notebook - to run ipython notebook (.ipynb) project file
-Follow instruction on https://docs.anaconda.com/anaconda/install/ to install Anaconda with Jupyter. Alternatively: VS Code can render Jupyter Notebooks
+# Deliverables:  Comaprison between Easy OCR and Keras OCR
 
 # Notebook Structure
 ## 1.Imports
@@ -63,15 +53,15 @@ As it can be clearly seen Keras OCR works better on our dataset than Easy OCR. B
 Keras-OCR is image specific OCR tool. If text is inside the image and their fonts and colors are unorganized. Easy-OCR is lightweight model which is giving a good performance for receipt or PDF conversion. It is giving more accurate results with organized texts like PDF files, receipts, bills.
 
 # Overall Accuracy Comaprison:
-# Pytesseract: 60-70% on handwriting detetction and 80 to 95% on printed text 
-# Kerasocr:  90 to 95% detection on printed images, handwriting, pdf reading etc
-# Easyocr: upto 95% accuracy.write OCR texts in 70+ languages
+##### Pytesseract: 60-70% on handwriting detetction and 80 to 95% on printed text 
+##### Kerasocr:  90 to 95% detection on printed images, handwriting, pdf reading etc
+##### Easyocr: upto 95% accuracy.write OCR texts in 70+ languages
 
 # Conclusion:
-# o	Tesseract is performing great for high-resolution pictures. Certain morphological activities, for example, expansion, disintegration, and OTSU binarization can help increment pytesseract execution.
-# o	EasyOCR is a lightweight model which is giving a decent execution for receipt or PDF change. It is giving more precise outcomes with coordinated texts like pdf records, receipts, and bills.
-# o	Keras-OCR is a picture explicit OCR device. Assuming text is inside the picture and their textual styles and varieties are disorderly, Keras-ocr gives great outcomes.
-# o	Though there are no firm guidelines, we can consider the over three focuses while attempting to decide on an OCR instrument.
+##### o	Tesseract is performing great for high-resolution pictures. Certain morphological activities, for example, expansion, disintegration, and OTSU binarization can help increment pytesseract execution.
+##### o	EasyOCR is a lightweight model which is giving a decent execution for receipt or PDF change. It is giving more precise outcomes with coordinated texts like pdf records, receipts, and bills.
+##### o	Keras-OCR is a picture explicit OCR device. Assuming text is inside the picture and their textual styles and varieties are disorderly, Keras-ocr gives great outcomes.
+##### o	Though there are no firm guidelines, we can consider the over three focuses while attempting to decide on an OCR instrument.
 
 ## Contact: sonakshichauhan1402@gmail.com
 
